@@ -1,0 +1,31 @@
+bankAccounts:
+  - id: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    name: "Main Account"
+    balance: "1000.00"
+  - id: "bfa85f64-5717-4562-b3fc-2c963f66afb6"
+    name: "Savings Account"
+    balance: "2500.50"
+
+categories:
+  - id: "cfa85f64-5717-4562-b3fc-2c963f66afc6"
+    name: "Salary"
+    catType: "Income"
+  - id: "dfa85f64-5717-4562-b3fc-2c963f66afd6"
+    name: "Groceries"
+    catType: "Expense"
+
+operations:
+  - id: "efa85f64-5717-4562-b3fc-2c963f66afe6"
+    opType: "Expense"
+    bankAccountId: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    amount: "50.00"
+    date: "2023-04-01"
+    description: "Grocery shopping"
+    categoryId: "dfa85f64-5717-4562-b3fc-2c963f66afd6"
+  - id: "ffa85f64-5717-4562-b3fc-2c963f66aff6"
+    opType: "Income"
+    bankAccountId: "bfa85f64-5717-4562-b3fc-2c963f66afb6"
+    amount: "1500.00"
+    date: "2023-04-05"
+    description: "Salary deposit"
+    categoryId: "cfa85f64-5717-4562-b3fc-2c963f66afc6"

@@ -1,0 +1,7 @@
+RecordType;id;name;balance;catType;bankAccountId;opType;amount;date;description;categoryId
+BankAccount;3fa85f64-5717-4562-b3fc-2c963f66afa6;Main Account;1000.00;;;;;
+BankAccount;bfa85f64-5717-4562-b3fc-2c963f66afb6;Savings Account;2500.50;;;;;
+Category;cfa85f64-5717-4562-b3fc-2c963f66afc6;Salary;;Income;;;;;
+Category;dfa85f64-5717-4562-b3fc-2c963f66afd6;Groceries;;Expense;;;;;
+Operation;efa85f64-5717-4562-b3fc-2c963f66afe6;;;Main Account;Expense;50.00;2023-04-01;Grocery shopping;dfa85f64-5717-4562-b3fc-2c963f66afd6
+Operation;ffa85f64-5717-4562-b3fc-2c963f66aff6;;;Savings Account;Income;1500.00;2023-04-05;Salary deposit;cfa85f64-5717-4562-b3fc-2c963f66afc6
